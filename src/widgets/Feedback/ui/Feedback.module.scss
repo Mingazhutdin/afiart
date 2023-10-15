@@ -1,0 +1,84 @@
+.feedback {
+    padding: 60px 0;
+    background-color: var(--inverted-bg-color);
+}
+
+.title {
+    position: relative;
+    font-family: 'Philosopher';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+    text-transform: uppercase;
+    margin: 0 0 40px 90px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 70px;
+        top: 25px;
+        left: -89px;
+        border: 1px solid var(--color-dark);
+    }
+}
+
+.grid {
+    display: grid;
+
+    &__col_4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__gap_30 {
+        column-gap: 30px;
+    }
+}
+
+.d_flex {
+    display: flex;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.feedbackcreator {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.name {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-dark);
+}
+
+.rating {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-dark);
+}
+
+.message {
+    text-align: left;
+    padding: 30px 0 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-dark);
+}
+
+.arrow {
+    margin: 0 30px;
+}
+
+.circle {
+    margin: 0 10px;
+}

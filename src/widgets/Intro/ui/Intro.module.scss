@@ -1,0 +1,48 @@
+.intro {
+    padding: 75px 0;
+    background-color: var(--color-black-bg);
+}
+
+.container {
+    display: flex;
+}
+
+.aside {
+    position: relative;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    max-width: 275px;
+    margin-top: 245px;
+    color: var(--color-light);
+
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 80px;
+        left: -38px;
+        top: 160px;
+        border: 1px solid var(--color-light);
+        transform: rotate(-90deg);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        left: -38px;
+        bottom: 190px;
+        border: 1px solid var(--color-light);
+        transform: rotate(-90deg);
+    }
+}
+
+.logo {
+    width: 935px;
+    height: 595px;
+    margin-top: 30px;
+}

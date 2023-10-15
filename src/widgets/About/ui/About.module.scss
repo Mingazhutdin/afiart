@@ -1,0 +1,143 @@
+.about {
+    padding: 80px 0;
+    background-color: var(--inverted-bg-color);
+}
+
+.dflex {
+    display: flex;
+}
+
+.col6 {
+    width: 50%;
+}
+
+.leftside {
+    position: relative;
+}
+
+.manicure,
+.salon {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.manicure {
+    z-index: 2;
+    right: 95px;
+    top: 85px;
+}
+
+.salon {
+    z-index: 1;
+    top: 215px;
+    left: 140px;
+}
+
+
+
+
+.leftbranch {
+    position: absolute;
+    width: 520px;
+    height: 570px;
+    top: -100px;
+    left: -5px;
+}
+
+.rightbranch {
+    position: absolute;
+    width: 430px;
+    height: 420px;
+    bottom: -20px;
+    right: -22px;
+
+}
+
+.btn {
+    padding: 5px 15px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--color-dark);
+    border: 1px solid var(--color-black);
+    border-radius: 3px;
+}
+
+.description {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--color-black);
+}
+
+.title {
+    position: relative;
+    font-family: "Philosopher";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 87px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-dark);
+    margin-bottom: 40px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 280px;
+        bottom: 0;
+        left: 0;
+        border: 1px solid var(--color-dark);
+    }
+
+}
+
+.grid {
+    display: grid;
+    margin-top: 70px;
+
+    &__col_4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__gap_30 {
+        column-gap: 30px;
+    }
+}
+
+.footer {
+    max-width: 380px;
+
+    &>.dflex {
+        margin-bottom: 17px;
+    }
+}
+
+.span {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 28px;
+    margin-right: 10px;
+    color: var(--color-sm-title);
+}
+
+.sm__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: var(--color-sm-title);
+}
+
+.sm__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: var(--color-black);
+}
