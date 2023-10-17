@@ -2,6 +2,9 @@ import { FC, ReactNode } from "react";
 import cls from "./AppLink.module.scss";
 import { classNames } from "shared/lib";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+ 
 
 
 export enum AppTitle {

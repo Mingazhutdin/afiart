@@ -1,8 +1,7 @@
 .app.dark {
     --bg-color: var(--color-black-bg);
-    --primary-color: var(--color-dark);
-    /* check below*/
+    --primary-color: var(--color-light);
     --inverted-bg-color: var(--color-black-bg);
-    // --secondary-color: rgb(183 183 183);
-    // --min-height: 100vh;
+    --secondary-color: var(--color-light);
+    --border-color: var(--color-border-light) 
 }

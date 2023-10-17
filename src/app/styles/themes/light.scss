@@ -1,6 +1,7 @@
 .app.light {
     --bg-color: rgb(240 240 240);
     --inverted-bg-color: var(--color-light-bg);
-    // --primary-color: rgb(11 0 84);
-    // --secondary-color: rgb(19 1 134);
+    --primary-color: var(--color-black);
+    --secondary-color: var(--color-sm-title);
+    --border-color: var(--color-border-dark) 
 }

@@ -3,11 +3,7 @@ import cls from './Map.module.scss';
 import { classNames } from 'shared/lib';
 import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
 
-
-
-
-const API_KEY =  process.env.REACT_APP_GOOGLE_MAP_API_KEY 
-
+const API_KEY = process.env.REACT_APP_GOOGLE_MAP_API_KEY
 
 const containerStyle = {
     width: '450px',
@@ -37,8 +33,6 @@ const Map: FC<MapProps> = ({ className }) => {
         googleMapsApiKey: API_KEY
     })
 
-
-
     return isLoaded ? (
         <div className={classNames(cls.map, {}, [className])}>
             <GoogleMap
@@ -67,6 +61,7 @@ const Map: FC<MapProps> = ({ className }) => {
                         )
                     }
                 </Marker>
+
             </GoogleMap>
         </div>
     ) : <></>

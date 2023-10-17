@@ -12,15 +12,13 @@
         padding: 10px 0;
     }
 
-
-
     &__btn {
         display: flex;
         font-weight: 500;
         font-size: 21px;
         line-height: 20px;
         text-align: left;
-        color: var(--color-black);
+        color: var(--primary-color);
 
         &:hover {
             cursor: pointer;
@@ -33,7 +31,7 @@
             font-size: 22px;
             line-height: 20px;
             text-align: left;
-            color: var(--color-black);
+            color: var(--primary-color);
         }
     }
 }
@@ -46,7 +44,7 @@
     line-height: 87px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--color-dark);
+    color: var(--secondary-color);
     margin-bottom: 40px;
 
     &::after {
@@ -55,7 +53,7 @@
         width: 280px;
         bottom: 0;
         left: 0;
-        border: 1px solid var(--color-dark);
+        border: 1px solid var(--secondary-color);
     }
 
 }
@@ -122,7 +120,7 @@
         width: 474px;
         left: 145px;
         top: 240px;
-        border: 1px solid var(--color-dark);
+        border: 1px solid var(--secondary-color);
         transform: rotate(-90deg);
     }
 }
@@ -135,7 +133,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 20px;
-    color: var(--color-black);
+    color: var(--primary-color);
     text-transform: capitalize;
 }
 
@@ -145,7 +143,7 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
-    color: var(--color-black);
+    color: var(--primary-color);
     margin-bottom: 60px;
 
     &~.d_flex {
@@ -158,7 +156,7 @@
         width: 100%;
         left: 0;
         bottom: -30px;
-        border: 1px solid rgba(0, 0, 0, 13%);
+        border: 1px solid var(--border-color);
     }
 
 }
@@ -171,6 +169,7 @@
     margin-right: 10px;
     width: 29px;
     height: 29px;
+    fill: var(--primary-color)
 }
 
 .hours {
@@ -178,7 +177,7 @@
         font-weight: 400;
         font-size: 22px;
         line-height: 33px;
-        color: var(--color-black);
+        color: var(--primary-color);
 
     }
 
@@ -187,7 +186,7 @@
         font-size: 26px;
         line-height: 33px;
         text-transform: capitalize;
-        color: var(--color-black);
+        color: var(--primary-color);
     }
 }
 
@@ -196,9 +195,8 @@
     margin-top: 40px;
     font-weight: 500;
     font-size: 22px;
-    // line-height: 26px;
-    color: var(--color-dark);
-    border: 1px solid var(--color-black);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 3px;
 }
 
