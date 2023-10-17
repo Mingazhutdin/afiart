@@ -36,9 +36,6 @@
     left: 140px;
 }
 
-
-
-
 .leftbranch {
     position: absolute;
     width: 520px;
@@ -62,8 +59,8 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 32px;
-    color: var(--color-dark);
-    border: 1px solid var(--color-black);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 3px;
 }
 
@@ -72,7 +69,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 34px;
-    color: var(--color-black);
+    color: var(--primary-color);
 }
 
 .title {
@@ -83,7 +80,7 @@
     line-height: 87px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--color-dark);
+    color: var(--primary-color);
     margin-bottom: 40px;
 
     &::after {
@@ -123,7 +120,7 @@
     font-size: 40px;
     line-height: 28px;
     margin-right: 10px;
-    color: var(--color-sm-title);
+    color: var(--secondary-color);
 }
 
 .sm__title {
@@ -131,13 +128,12 @@
     font-size: 26px;
     line-height: 28px;
     text-transform: uppercase;
-    color: var(--color-sm-title);
+    color: var(--secondary-color);
 }
 
 .sm__description {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-
-    color: var(--color-black);
+    color: var(--secondary-color);
 }

@@ -12,7 +12,7 @@
     line-height: 87px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--color-dark);
+    color: var(--primary-color);
     margin-bottom: 40px;
 
     &::after {
@@ -21,7 +21,7 @@
         width: 280px;
         bottom: 0;
         left: 0;
-        border: 1px solid var(--color-dark);
+        border: 1px solid var(--secondary-color);
     }
 
 }
@@ -42,7 +42,7 @@
     line-height: 28px;
     margin: 0 15px 0 40px;
     text-transform: uppercase;
-    color: var(--color-dark);
+    color: var(--primary-color);
 
     &::before {
         content: "";
@@ -50,7 +50,7 @@
         width: 20px;
         top: 13px;
         left: -39px;
-        border: 1px solid var(--color-dark);
+        border: 1px solid var(--primary-color);
 
     }
 
@@ -59,6 +59,7 @@
 .svg {
     width: 30px;
     height: 30px;
+    fill: var(--secondary-color)
 }
 
 .grid {
