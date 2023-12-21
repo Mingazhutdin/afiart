@@ -6,12 +6,12 @@ import { Buttons, ButtonTypes } from '../types/types';
 import { useTranslation } from 'react-i18next';
 
 export const buttonData: Buttons[] = [
-    { id: 1, title: ButtonTypes.MANICURE, time: "1 hour", price: "30$", description: "Safe e- file or classic manicure including nail shaping, precise cuticles work, cuticle oil and hand lotion massage" },
-    { id: 2, title: ButtonTypes.GEL_POLISH_MANICURE, time: "2 hours", price: "55$", description: "Removal gel polish, shaping,  cuticle removal and applying fresh gel polish, design not included. If you have a long nails you should to pick different service named \"Hand gel strengthening\"." },
-    { id: 3, title: ButtonTypes.GEL_POLISH_MANICURE_AND_GEL_STRENGTHENING, time: "2:15 hours", price: "65$", description: "Removal gel polish, shaping,  cuticle removal and applying hard gel and gel polish. Design not included." },
-    { id: 4, title: ButtonTypes.PEDICURE, time: "1 hour", price: "50$", description: "Removal polish, shaping, cuticle removal,  callus removal, using pododisk, foot scrub, lotion, oil and massage." },
-    { id: 5, title: ButtonTypes.PEDICURE_REGULAR_POLISH, time: "1:30 hours", price: "55$", description: "Removal polish,  shaping, cuticle removal,  callus removal,  using pododisk, foot scrub lotion, oil and massage." },
-    { id: 6, title: ButtonTypes.GEL_POLISH_PEDICURE, time: "1:30 hours", price: "70$", description: "Removal gel polish,  shaping,  cuticle removal, using pododisk,  foot scrub,  lotion, oil and massage." },
+    { id: 1, title: ButtonTypes.MANICURE, time: "1 hour", price: "30$", description: "desc-one" },
+    { id: 2, title: ButtonTypes.GEL_POLISH_MANICURE, time: "2 hours", price: "55$", description: "desc-two" },
+    { id: 3, title: ButtonTypes.GEL_POLISH_MANICURE_AND_GEL_STRENGTHENING, time: "2:15 hours", price: "65$", description: "desc-three" },
+    { id: 4, title: ButtonTypes.PEDICURE, time: "1 hour", price: "50$", description: "desc-four" },
+    { id: 5, title: ButtonTypes.PEDICURE_REGULAR_POLISH, time: "1:30 hours", price: "55$", description: "desc-five" },
+    { id: 6, title: ButtonTypes.GEL_POLISH_PEDICURE, time: "1:30 hours", price: "70$", description: "desc-six" },
 ]
 
 interface ServicesTitleProps {

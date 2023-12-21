@@ -20,15 +20,15 @@ export const ServicesDescription: FC<ServicesDescriptionProps> = ({ className, i
             {
                 <div className={cls.height}>
                     <div className={cls.top}>
-                        <h4 className={cls.md_title}>{info?.title}</h4>
-                        <p className={cls.md_description}>{info?.description}</p>
+                        <h4 className={cls.md_title}>{t(info?.title)}</h4>
+                        <p className={cls.md_description}>{t(info?.description)}</p>
 
                         <div className={classNames(cls.d_flex, { [cls.align_center]: true }, [cls.justify_between])}>
                             <div className={classNames(cls.d_flex, {}, [cls.align_center])}>
                                 <Hours className={cls.svg} />
                                 <p className={cls.hours_info}>{t("Working hours")}:</p>
                             </div>
-                            <span className={cls.hours_time}>{info?.time}</span>
+                            <span className={cls.hours_time}>{t(info?.time)}</span>
                         </div>
 
                         <div className={classNames(cls.d_flex, { [cls.align_center]: true }, [cls.justify_between])}>

@@ -21,13 +21,13 @@ export const Footer: FC<FooterProps> = ({ className }) => {
                 <div className={cls.grid}>
                     <div className={cls.left}>
                         <Logo className={cls.logo} />
-                        <AppLink className={cls.link} to={AppTitle.HOME}>{AppTitle.HOME}</AppLink>
-                        <AppLink className={cls.link} to={AppTitle.ABOUT}>{AppTitle.ABOUT}</AppLink>
-                        <AppLink className={cls.link} to={AppTitle.GALLERY}>{AppTitle.GALLERY}</AppLink>
+                        <AppLink className={cls.link} to={AppTitle.HOME}>{t("AppTitle.HOME")}</AppLink>
+                        <AppLink className={cls.link} to={AppTitle.ABOUT}>{t("AppTitle.ABOUT")}</AppLink>
+                        <AppLink className={cls.link} to={AppTitle.GALLERY}>{t("AppTitle.GALLERY")}</AppLink>
                     </div>
 
                     <div className={cls.md}>
-                        <h4 className={cls.title}>{t("Contact Us")}</h4>
+                        <h4 className={cls.title}>{t("AppTitle.CONTACTS")}</h4>
                         <div className={classNames(cls.d_flex, {}, [cls.align_center])}>
                             <svg className={cls.svg} viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.1323 14.8645C14.5539 17.8252 16.4917 20.6001 18.9458 23.0542C21.3999 25.5083 24.1748 27.4461 27.1355 28.8677C27.3902 28.9899 27.5175 29.0511 27.6787 29.098C28.2513 29.2649 28.9544 29.1451 29.4393 28.7978C29.5758 28.7001 29.6925 28.5834 29.926 28.3499C30.64 27.6359 30.997 27.2788 31.356 27.0454C32.7099 26.1652 34.4553 26.1652 35.8092 27.0454C36.1683 27.2788 36.5253 27.6359 37.2393 28.3499L37.6373 28.7479C38.7227 29.8333 39.2655 30.376 39.5603 30.9589C40.1466 32.1181 40.1466 33.4871 39.5603 34.6463C39.2655 35.2291 38.7227 35.7718 37.6373 36.8573L37.3154 37.1792C36.2337 38.2609 35.6928 38.8018 34.9575 39.2148C34.1415 39.6732 32.8742 40.0028 31.9383 40C31.0949 39.9975 30.5185 39.8339 29.3657 39.5067C23.1702 37.7482 17.3241 34.4304 12.4469 29.5531C7.56964 24.6759 4.2518 18.8298 2.49334 12.6343C2.16613 11.4815 2.00253 10.9051 2.00002 10.0617C1.99723 9.12579 2.3268 7.85849 2.78516 7.04253C3.19823 6.3072 3.73909 5.76635 4.82079 4.68464L5.14275 4.36268C6.22817 3.27726 6.77089 2.73455 7.35375 2.43974C8.51295 1.85342 9.8819 1.85342 11.0411 2.43974C11.624 2.73455 12.1667 3.27726 13.2521 4.36268L13.6501 4.76069C14.3641 5.47473 14.7212 5.83175 14.9546 6.19076C15.8348 7.54465 15.8348 9.29006 14.9546 10.644C14.7212 11.003 14.3641 11.36 13.6501 12.074C13.4166 12.3075 13.2999 12.4242 13.2022 12.5607C12.8549 13.0456 12.7351 13.7487 12.902 14.3213C12.9489 14.4825 13.0101 14.6098 13.1323 14.8645Z" stroke="white" stroke-width="3.32143" stroke-linecap="round" stroke-linejoin="round" />

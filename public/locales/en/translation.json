@@ -1,13 +1,8 @@
 {
   "language": "English",
-  "main_link": "Home",
-  "about_link": "About us",
   "not_found": "Page Not Found 404",
   "error page": "Something went wrong",
   "reload": "reload",
-  "service_link": "Service",
-  "gallery_link": "Gallery",
-  "contacts_link": "Contacts",
   "Intro-description": "The Nail Salon: Creating a Masterpiece on Every Finger",
   "The Nail Salon": "The Nail Salon: Creating a Masterpiece on Every Finger",
   "Welcome to AfiArt": "Welcome to AfiArt salon in the magical world of manicure and pedicure. Every woman dreams of having beautiful nails with a smooth coating and an impeccable shape.",
@@ -29,14 +24,30 @@
   "Price": "Price",
   "Appointment": "Appointment",
   "Add to Cart": "Add to Cart",
-  "translation": {
-    "types": {
-      "MANICURE": "Manicure",
-      "GEL_POLISH_MANICURE": "Gel polish manicure"
-    }
-  },
   "Feedback": "Feedback from our customers",
   "Gallery": "Gallery",
   "See more work on our Instagram": "See more work on our Instagram",
-  "Contact Us": "Contact Us"
+  "Manicure": "Manicure",
+  "Gel polish manicure": "Gel polish manicure",
+  "Gel polish manicure and Gel strengthening": "Gel polish manicure and Gel strengthening",
+  "Pedicure": "Pedicure",
+  "Pedicure regular polish": "Pedicure regular polish",
+  "Gel Polish Pedicure": "Gel Polish Pedicure",
+  "AppTitle": {
+    "HOME": "Home",
+    "ABOUT": "About Us",
+    "GALLERY": "Gallery",
+    "SERVICE": "Service",
+    "CONTACTS": "Contact Us"
+  },
+  "desc-one": "Safe e-file or classic manicure including nail shaping, precise cuticles work, cuticle oil and hand lotion massage.",
+  "desc-two": "Removal gel polish, shaping, cuticle removal and applying fresh gel polish, design not included. If you have a long nails you should to pick different service named \"Hand gel strengthening\".",
+  "desc-three": "Removal gel polish, shaping, cuticle removal and applying hard gel and gel polish. Design not included.",
+  "desc-four": "Removal polish, shaping, cuticle removal, callus removal, using pododisk, foot scrub, lotion, oil and massage.",
+  "desc-five": "Removal polish, shaping, cuticle removal, callus removal, using pododisk, foot scrub lotion, oil and massage.",
+  "desc-six": "Removal gel polish, shaping, cuticle removal, using pododisk, foot scrub, lotion, oil and massage.",
+  "1 hour": "1 hour",
+  "2 hours": "2 hours",
+  "2:15 hours": "2:15 hours",
+  "1:30 hours": "1:30 hours"
 }
