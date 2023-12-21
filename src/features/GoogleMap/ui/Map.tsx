@@ -44,12 +44,14 @@ const Map: FC<MapProps> = ({ className }) => {
                 zoom={13}
                 options={{
                     streetViewControl: false,
+                    clickableIcons: false,
 
                 }}
             >
                 <Marker
                     position={{ lat: 42.139290, lng: -87.905891 }}
-                    onClick={() => handleClick()}
+                    onClick={handleClick}
+
                 >
                     {
                         showWindow && (

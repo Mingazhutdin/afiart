@@ -22,11 +22,11 @@ export const Navbar: FC<NavbarProps> = ({ className }) => {
             <Container className={cls.container}>
                 <Logo className={cls.logo} />
                 <nav className={cls.nav}>
-                    <AppLink to={AppTitle.HOME} className={cls.link}>{t("main_link")}</AppLink>
-                    <AppLink to={AppTitle.ABOUT} className={cls.link}>{t("about_link")}</AppLink>
-                    <AppLink to={AppTitle.SERVICE} className={cls.link}>{t("service_link")}</AppLink>
-                    <AppLink to={AppTitle.GALLERY} className={cls.link}>{t("gallery_link")}</AppLink>
-                    <AppLink to={AppTitle.CONTACTS} className={cls.link}>{t("contacts_link")}</AppLink>
+                    <AppLink to={AppTitle.HOME} className={cls.link}>{t("AppTitle.HOME")}</AppLink>
+                    <AppLink to={AppTitle.ABOUT} className={cls.link}>{t("AppTitle.ABOUT")}</AppLink>
+                    <AppLink to={AppTitle.SERVICE} className={cls.link}>{t("AppTitle.SERVICE")}</AppLink>
+                    <AppLink to={AppTitle.GALLERY} className={cls.link}>{t("AppTitle.GALLERY")}</AppLink>
+                    <AppLink to={AppTitle.CONTACTS} className={cls.link}>{t("AppTitle.CONTACTS")}</AppLink>
 
                     <LangSwitcher className={cls.lang} />
                     <ThemeSwitcher className={cls.icon} />
